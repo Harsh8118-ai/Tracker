@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global dark theme */
+body {
+  background-color: #0a0a0a;
+  color: #e5e7eb;
+}
+
+/* Linux terminal panel */
+.terminal {
+  background-color: #0d1117;
+  border: 1px solid #374151;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+/* Instagram gradient text */
+.ig-text {
+  background: linear-gradient(
+    45deg,
+    #f58529,
+    #dd2a7b,
+    #8134af,
+    #515bd4
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* 3D Button */
+.btn-3d {
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  box-shadow: 0 6px 0 #3b0764;
+  transition: all 0.15s ease;
+}
+
+.btn-3d:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #3b0764;
+}
