@@ -23,7 +23,7 @@ export default function UserForm({ refresh }) {
 
       <div className="flex gap-3">
         <input
-          className="flex-1 bg-black border border-gray-700 rounded-lg px-4 py-2 outline-none focus:border-pink-500"
+          className="flex-1 bg-black border border-gray-700 rounded-lg sm:px-4 py-2 outline-none focus:border-pink-500"
           placeholder="@username"
           value={username}
           onChange={e => setUsername(e.target.value)}
